@@ -186,9 +186,10 @@ Entre las dudas que nos surgen sobre este algoritmo están los criterios exactos
 Pero en general, entendemos que MLFQ busca mejorar la distribución del tiempo de CPU mediante la asignación dinámica de prioridades, teniendo en cuenta el comportamiento de los procesos y permitiendo una mejor respuesta para aquellos que requieren atención frecuente.
 
 ***4.2. Prompt 1***  
-**Modelo de Inteligencia Artificial utilizado:** Claude (Anthropic), específicamente la versión **Sonnet 5.5**. Fue utilizada como tutor socrático para guiar el análisis de los conceptos y para la revisión del código de XV6.
 
-Actúa como tutor socrático de una pareja de estudiantes de cuarto semestre de Ingeniería de Sistemas. Conocemos C++ y hemos comenzado a explorar XV6 para RISC-V.
+**IA utilizada:** Claude (Anthropic), específicamente la versión **Sonnet 5.5**. Fue utilizada como tutor socrático para guiar el análisis de los conceptos y para la revisión del código de XV6.
+
+"Actúa como tutor socrático de una pareja de estudiantes de cuarto semestre de Ingeniería de Sistemas. Conocemos C++ y hemos comenzado a explorar XV6 para RISC-V.
 
 Queremos identificar y justificar qué se necesitaría para incorporar MLFQ a XV6. En esta entrega no vamos a implementarlo.
 
@@ -231,7 +232,7 @@ Mantén el análisis dentro del alcance de una propuesta: no necesitamos impleme
 
 Al finalizar, pídenos que redactemos nuestras conclusiones. Comprueba su consistencia mediante una última pregunta aplicada a un caso concreto, sin escribir por nosotros el reporte.
 
-Comienza con una pregunta que permita comprobar cómo entendemos una regla de nuestra descripción inicial de MLFQ.
+Comienza con una pregunta que permita comprobar cómo entendemos una regla de nuestra descripción inicial de MLFQ."
 
 ***4.3. Propuesta de cambios en XV6***  
 Para incorporar el algoritmo MLFQ en XV6 proponemos las siguientes modificaciones:
